@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+#backgroundV  {
+    -o-background-size:      cover ;
+     -webkit-background-size:cover ;
+      -moz-background-size:  cover ;
+            background-size: cover;
+    overflow: hidden;
+    background-position: center center ;
+    position: fixed;
+     width:     100%; 
+     height: 100hv;
+   z-index: -1; 
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+header .menu{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+        background-color: rgba(0,0,0,0.5);
+
+
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a{
+color: whitesmoke;
+padding: 8px 12px;
+border-radius: 3px;
+transition: 200ms;
+padding-right: 60px;
+}
+
+header .menu .ativo, header .menu a:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.rodape {
+   position:absolute;
+   bottom:10;
+   width:100%;
+   height:60px;   /* Mesma Altura do Rodapé */
+  
+}
+.subTitle{
+     font-size: 55px;
+font-family: 'Bebas Neue', cursive;    text-align: left;
+    color: whitesmoke;
+    text-shadow: black;
+    padding-left: 2%;
+    padding-top: 250px;
+    text-align: center;
+}
+.texto{
+    padding-left: 200px;
+    color: whitesmoke;
+    position: absolute;
+    text-shadow: black;
+}
+.bodypage p{
+    font-size: 20px;
+    font-family: Palatino, URW Palladio L, sans-serif;
+    text-align: left ;
+    text-shadow: whitesmoke;
+    text-align: justify;
+    color: whitesmoke;
+    width: 1000px;
+}
+.menu .logo{
+    height: 105px;
+    width: auto;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+font-family: 'Bebas Neue', cursive;    text-align: left;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 2%;
+    padding-top: 50px;
+    padding-left: 100px;
+        
+
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;    text-align: left;
+    padding-left: 100px;
+}
+.minitabela{
+    padding-left: 300px;
+}
+
+.minitabela li {
+    font-size: 20px;
+}
